@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8eaf6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="423.7dp"
+        android:layout_height="222.5dp"
+        android:src="@drawable/tanahlot" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:background="#e8eaf6"
+        android:text="Pura Tanah Lot"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Lokasi: Alamat, Desa Beraban, Kecamatan Kediri, Kabupaten Tabanan."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp"
+        android:layout_margin="5dp"
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/poppinsregular"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/text1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppinsregular"/>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="@drawable/bali">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/ic_kembali" />
+
+    <TextView
+        android:id="@+id/textbali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="440dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:hint="BALI"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textangka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="440dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:hint="4,5"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="370dp"
+        android:layout_marginTop="440dp"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/ic_star" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/ic_arrow_up" />
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="640dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:hint="SELENGKAPNYA"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="30sp" />
+</RelativeLayout>
